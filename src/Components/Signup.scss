@@ -1,0 +1,74 @@
+.Signup-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Signup-SubContainer{
+        height: 70%;
+        width: 450px;
+        border: 0.5px solid lightgray;
+        border-radius: 10px;
+
+        .Header{
+            height: 15%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            font-family: 'Roboto';
+            font-size: 25px;
+            font-weight: 500;
+            color:Blue;
+        }
+
+        .Body{
+            height: 70%;
+            width: 100%;
+
+
+
+            .form{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .TextField{
+                    width: 300px;
+                    margin: 20px; 
+                }
+
+                .Roles{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 100%;
+
+                    .RoleValue{
+                        width: 100px;
+                    }
+                }
+            }
+        }
+
+        .Button{
+            height: 15%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .btn{
+                text-transform: none;
+            }
+        }
+    }
+
+    .Signup-SubContainer:hover{
+        box-shadow: 0 0 5px -2px black;
+    }
+}
